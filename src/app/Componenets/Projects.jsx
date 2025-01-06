@@ -16,10 +16,10 @@ const Projects = () => {
   <Link href={"/home-interior-design"}>
     <Image
      src="/images/home-interior-design-dubai.webp"
-     alt="Dubai Interior Design - Luxurious TV Lounge Design "
-     title="Luxurious TV Lounge Designed by Dubai Interior Design Company"
-     width={700}
-     height={300}
+     alt="Dubai Interior Design - Luxurious Living Room Design "
+     title="Luxurious Living Room Designed by Top Interior Design Dubai Company"
+     width={600}
+     height={400}
      className="w-full rounded-t-3xl md:rounded-lg lg:rounded-tl-5xl lg:rounded-tr-none lg:rounded-none lg:rounded-l-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
              style={{ borderTopLeftRadius: '2rem' }}
     />
@@ -48,8 +48,8 @@ const Projects = () => {
         src="/images/dubai-interior-design-company-restaurant-counter.webp"
         alt="Dubai Interior Design - Modern Restaurant Counter Design "
         title="Modern Restaurant Design by Top Interior Designers in Dubai"
-        width={700}
-        height={300}
+        width={600}
+        height={400}
         className="w-full lg:rounded-tr-3xl md:rounded-tr-3xl hover:transform hover:-translate-y-2 transition-transform duration-500"
     />
   <div className="absolute top-18 bottom-24 left-0 w-full flex items-center justify-center">
@@ -74,11 +74,11 @@ const Projects = () => {
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
   <Link href={"/retail-designs"}>
     <Image
-        src="/images/barber-shop-retail-interior-design.webp"
-        alt="Retail Barber shop - One of the leading Interior Design Companies in Dubai "
-        title="Top Barber Shop Design by Interior Design company Dubai"
-        width={700}
-        height={300}
+        src="/images/beauty-salon-spa-retail-interior-design.webp"
+        alt="Retail Beauty Salon -Design by One of the leading Interior Design Companies in Dubai "
+        title="Top Beauty Salon and Spa Design by Interior Design company Dubai"
+        width={600}
+        height={400}
         className="w-full lg:rounded-bl-3xl md:rounded-bl-3xl hover:transform hover:-translate-y-2 transition-transform duration-500"
         
     />
@@ -106,9 +106,9 @@ const Projects = () => {
     <Image
       src="/images/commercial-office-reception-interior-design-dubai.webp"
       alt="Corporate office reception interior design in Dubai"
-      title="Luxurious Modern Villa Interior Design with Premium Aesthetic in Dubai by WeDo Interiors"
-      width={700}
-      height={300}
+      title="Luxury Office Interior Design with Premium Aesthetic in Dubai by We Do Design & Fitout"
+      width={600}
+      height={400}
       className="w-full rounded-b-3xl md:rounded-lg lg:rounded-br-5xl lg:rounded-bl-none lg:rounded-none lg:rounded-l-5xl hover:transform hover:-translate-y-2 transition-transform duration-500"
       style={{ borderBottomRightRadius: '2rem' }}
       />
