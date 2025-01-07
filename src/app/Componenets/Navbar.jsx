@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import NavLink from "./NavLink";
-import { FaBars, FaInstagram, FaPinterest, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaBars, FaTiktok, FaInstagram, FaPinterest, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 import MenuOverlay from "./MenuOverlay";
 import Image from "next/image";
@@ -17,6 +17,11 @@ const navLinks = [
 ];
 
 const socialLinks = [
+  { 
+    icon: <FaTiktok />, 
+    href: "https://www.tiktok.com/@wedo_interior", 
+    hoverColor: "hover:text-teal-500"
+  },
   { 
     icon: <FaInstagram />, 
     href: "https://www.instagram.com/wedo_interior/", 
