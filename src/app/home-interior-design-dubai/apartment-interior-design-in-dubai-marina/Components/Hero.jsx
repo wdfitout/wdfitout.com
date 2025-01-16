@@ -6,7 +6,7 @@ const Hero = () => {
       
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/dmapt (1).webp')" }}
+        style={{ backgroundImage: "url('/images/dmapt (3).webp')" }}
       ></div>
 
       <div className="px-2 absolute inset-0 bg-opacity-50 bg-black flex items-center justify-center">
