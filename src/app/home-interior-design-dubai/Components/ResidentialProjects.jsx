@@ -214,7 +214,7 @@ const ResidentialProjects = () => {
   </div>
 
   <div className="w-full px-2 sm:w-1/2 mb-4 relative">
-    <Link href="home-interior-design-dubai/ modern-villa-interior-design-in-jumeirah-beach-residence">
+    <Link href="home-interior-design-dubai/modern-villa-interior-design-in-jumeirah-beach-residence">
       <Image
         src="/images/Residential (5).webp"
         alt="Residential Project"
