@@ -11,7 +11,7 @@ const Services = () => {
         </h2><div className="flex flex-wrap justify-center">
           
           <div className="relative w-full sm:w-1/4 px-2 mb-4">
-          <Link href={"/design-&-build"}>
+          <Link href={"/design-&-build-services-in-dubai"}>
               <div className="group">
                 {/* Background image */}
                 <div className="absolute  mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
 
           <div className="relative w-full sm:w-1/4 px-2 mb-4">
-        <Link href={"/the-fitout"}>
+        <Link href={"/fitout-company-dubai"}>
               <div className="group">
                 {/* Background image */}
                 <div className="absolute mt-6 inset-0 hover:bg-black/50 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-500">

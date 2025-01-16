@@ -13,9 +13,9 @@ const Projects = () => {
 
             
         <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/home-interior-design"}>
+  <Link href={"/home-interior-design-dubai"}>
     <Image
-     src="/images/home-interior-design-dubai.webp"
+     src="/images/modern-apartment-interior-design-in-dubai.webp"
      alt="Dubai Interior Design - Luxurious Living Room Design "
      title="Luxurious Living Room Designed by Top Interior Design Dubai Company"
      width={600}
@@ -43,7 +43,7 @@ const Projects = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/restaurant-interior-design"}>
+  <Link href={"/restaurant-interior-design-dubai"}>
     <Image
         src="/images/dubai-interior-design-company-restaurant-counter.webp"
         alt="Dubai Interior Design - Modern Restaurant Counter Design "
@@ -72,7 +72,7 @@ const Projects = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/retail-designs"}>
+  <Link href={"/retail-interior-design-dubai"}>
     <Image
         src="/images/beauty-salon-spa-retail-interior-design.webp"
         alt="Retail Beauty Salon -Design by One of the leading Interior Design Companies in Dubai "
@@ -102,9 +102,9 @@ const Projects = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/commercial-interior-design"}>
+  <Link href={"/commercial-interior-design-dubai"}>
     <Image
-      src="/images/commercial-office-reception-interior-design-dubai.webp"
+      src="/images/x.learning (3).webp"
       alt="Corporate office reception interior design in Dubai"
       title="Luxury Office Interior Design with Premium Aesthetic in Dubai by We Do Design & Fitout"
       width={600}
