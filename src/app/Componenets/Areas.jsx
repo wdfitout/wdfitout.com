@@ -12,7 +12,7 @@ const Areas = () => {
         <div className="flex flex-wrap justify-center">
 
         <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/interior-design-companies-palm-jumeirah"}>
+  <Link href={"/interior-design-companies-palm-jumeirah-dubai"}>
     <Image
       src="/images/premium-barber-shop-interior-design-palm-jumeirah-dubai.webp"
       alt="Luxury apartment dining area in Palm Jumeirah Dubai with modern table setting and a breathtaking city view."
@@ -45,7 +45,7 @@ const Areas = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-<Link href={"/interior-design-near-atlantis-the-royal"}>
+<Link href={"/interior-design-near-atlantis-the-royal-dubai"}>
     <Image
       src="/images/atlantis-the-royal-luxury-living-room-interior-design.webp"
       alt="Modern luxury bedroom interior Deign in Dubai Hills: showcasing Design skills of Interior Design comapny Dubai"
@@ -76,7 +76,7 @@ const Areas = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-<Link href={"/apartment-interior-design-in-dubai-marina"}>
+<Link href={"/best-interior-design-company-in-dubai-marina"}>
     <Image
       src="/images/contemporary-living-room-interior-design-dubai-marina-dubai.webp"
       alt="Modern retailer office reception in Business Bay Dubai with marble table, wood accent wall, and glass wall."

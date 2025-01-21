@@ -10,7 +10,7 @@ const Hero = () => {
         className="bg-cover bg-center h-[250px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] order-1 w-full md:w-7/12"
         style={{
           backgroundImage:
-            "url('/images/Exquisite-Dubai-restaurant-fitout-with-statement-lighting-interior-design-solutions-Downtown-Dubai.jpg')",
+            "url('/images/pjapt (1).webp')",
         }}
       ></div>
 
@@ -63,36 +63,66 @@ const Hero = () => {
         `}</style>
         <div className="text-center">
           <h1 className="text-xl text-[#b89564] font-bold mb-4">
-            BEST BUSINESS BAY INTERIOR DESIGN & FITOUT COMPANY DUBAI
+            APARTMENT INTERIOR DESIGN & FITOUT IN DUBAI
           </h1>
           <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            Business Bay, Dubai is a luxurious innovation, with several famous 
-            commercial and residential spaces in the entire region. 
-            Famous for its iconic skyline as well as for being vibrant,
-            it hosts business people and individuals interested in 
-            high-end design as well as functionality.
+          Transforming apartments into luxurious and functional living spaces is at the heart of what we do. At WeDo Interior Design & Fitout, we specialize in crafting stunning interiors that reflect your personal style while maximizing every inch of your space.
           </p>
-          <h2 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            INTERIOR DESIGN COMPANY DUBAI - WE DO DESIGN & FITOUT
+          <h2 className="text-start text-xl text-[#b89564] font-bold mt-2 mb-2">
+            TAILORED DESIGNS FOR URBAN LIVING AREAS OF DUBAI 
           </h2>
           <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            WE DO Design & Fitout, as the best interior design company in
-            Business Bay, creates exceptional spaces by bringing together
-            sophistication and practicality. The reputation of the best
-            fitout company in Business Bay is built upon the delivery
-            of tailored solutions for clients. Whether it is high-end
-            interior fit-out work or efficient fit-out work for an
-            office, retail space, or residence, we ensure seamless
-            execution and outstanding results.
-            <h3 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            BEST INTERIOR DESIGN COMPANY IN BUSINESS BAY DUBAI
-          </h3>
-            As the Best Interior Design Company in Business Bay Dubai,
-            we work from detailed planning to flawless implementation
-            of interior fit-out for every project we undertake. Be a part
-            of the top interior design company in Business Bay Dubai and
-            experience perfect harmony between style and functionality.
+          Dubai apartments often combine contemporary architecture with sleek modern aesthetics. Our expert interior designers understand the unique needs of apartment living, offering bespoke solutions that enhance both comfort and elegance. From studio apartments to expansive penthouses, we tailor every design to suit the scale and character of your home.
           </p>
+          <h2 className="text-start text-xl text-[#b89564] font-bold mt-2 mb-2">
+            WHAT OUR APARTMENT INTERIOR DESIGN SERVICES INCLUDE 
+          </h2>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+             Space Optimization
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          Dubai apartments often combine contemporary architecture with sleek modern aesthetics. Our expert interior designers understand the unique needs of apartment living, offering bespoke solutions that enhance both comfort and elegance. From studio apartments to expansive penthouses, we tailor every design to suit the scale and character of your home.
+          </p>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+          Premium Finishes and Materials
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          High-quality textures, furniture, and finishes that add sophistication and durability to your interiors.
+          </p>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+          Lighting Design
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          Integrating natural light and custom lighting solutions to enhance ambiance and functionality.
+          </p>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+             Storage Solutions
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          Creative storage ideas that blend seamlessly into the design for a clutter-free home.
+          </p>
+          <h2 className="text-start text-xl text-[#b89564] font-bold mt-2 mb-2">
+            A PROCESS TAILORED TO YOU 
+          </h2>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+          Consultation
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          We start by understanding your preferences, lifestyle, and the vision you have for your apartment.
+          </p>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+             Design Concept
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          Our designers craft detailed plans and 3D visuals to bring your ideas to life.
+          </p>
+          <h3 className="text-start text-LG font-bold mt-2 mb-2">
+             Execution
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
+          With precision and attention to detail, we transform your apartment into a stunning, livable masterpiece.
+          </p>
+       
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ const Hero = () => {
         className="bg-cover bg-center h-[250px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] order-1 w-full md:w-7/12"
         style={{
           backgroundImage:
-            "url('/images/Exquisite-Dubai-restaurant-fitout-with-statement-lighting-interior-design-solutions-Downtown-Dubai.jpg')",
+            "url('/images/karakna (1).webp')",
         }}
       ></div>
 
@@ -61,37 +61,96 @@ const Hero = () => {
             );
           }
         `}</style>
-        <div className="text-center">
-          <h1 className="text-xl text-[#b89564] font-bold mb-4">
-            BEST BUSINESS BAY INTERIOR DESIGN & FITOUT COMPANY DUBAI
+        <div className="text-start">
+        <h1 className="text-xl text-[#b89564] font-bold mb-4">
+            CAFE INTERIOR DESIGN & FITOUT DUBAI
           </h1>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            Business Bay, Dubai is a luxurious innovation, with several famous 
-            commercial and residential spaces in the entire region. 
-            Famous for its iconic skyline as well as for being vibrant,
-            it hosts business people and individuals interested in 
-            high-end design as well as functionality.
-          </p>
-          <h2 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            INTERIOR DESIGN COMPANY DUBAI - WE DO DESIGN & FITOUT
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          A beautifully designed café is more than just a place to grab a coffee—it’s a space where people connect, unwind, and create memories. At WeDo Interior Design & Fitout, we craft captivating café interiors that blend aesthetics, functionality, and your brand’s personality to create a space that stands out in Dubai’s thriving café culture.
+           </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CRAFTING UNIQUE CAFE EXPERIENCE
           </h2>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            WE DO Design & Fitout, as the best interior design company in
-            Business Bay, creates exceptional spaces by bringing together
-            sophistication and practicality. The reputation of the best
-            fitout company in Business Bay is built upon the delivery
-            of tailored solutions for clients. Whether it is high-end
-            interior fit-out work or efficient fit-out work for an
-            office, retail space, or residence, we ensure seamless
-            execution and outstanding results.
-            <h3 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            BEST INTERIOR DESIGN COMPANY IN BUSINESS BAY DUBAI
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Dubai’s café scene is as diverse as its culture, making it essential to have a space that speaks to your target audience. Whether you’re opening a trendy coffee shop, an artisan bakery, or a cozy tea lounge, our expert designers create interiors that reflect your concept and enhance the overall experience for your customers.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CAFE INTERIOR DESIGN & FITOUT SERVICES IN DUBAI
+          </h2>
+          <h3 className="text-start text-lg font-bold mt-2 mb-2">
+            Concept Development
           </h3>
-            As the Best Interior Design Company in Business Bay Dubai,
-            we work from detailed planning to flawless implementation
-            of interior fit-out for every project we undertake. Be a part
-            of the top interior design company in Business Bay Dubai and
-            experience perfect harmony between style and functionality.
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Designing interiors that align with your café’s theme and vision.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Space Planning
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Efficient layouts to maximize seating capacity while ensuring guest comfort and smooth operations.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Custom Furniture
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Bespoke tables, chairs, and display units that complement your style and ensure durability.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Unique Lighting
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Ambiance-enhancing lighting tailored to create a warm and inviting atmosphere.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Material Selection
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Durable, easy-to-maintain surfaces suited for Dubai’s dynamic environment and café operations.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Feature Walls & Branding
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Unique design elements that make your café instantly recognizable and Instagram-worthy.
+          </p>
+        <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            OUR PROCESS
+          </h2>
+        <h3 className="text-start text-lg font-bold mt-2 mb-2">
+            Consultation
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Understanding your concept, target audience, and operational needs.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Design Development
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          We create mood boards, layouts, and 3D renderings to visualize your café’s unique style.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Implementation
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Our team manages the project from start to finish, ensuring every detail is perfect.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            WHY CHOOSE US ?
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Dubai’s café market is competitive, and creating a memorable space is key to success. With years of experience designing hospitality interiors, our team knows how to combine creativity and practicality to deliver results that attract customers and elevate your brand.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            DESIGN A CAFE THAT SOUNDS OUT 
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Whether you’re launching a new café or redesigning an existing one, WeDo Interior Design & Fitout will bring your vision to life with creative and functional designs that reflect Dubai’s vibrant spirit.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CONTACT US TODAY
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          To sdiscuss your café interior design project in Dubai!
           </p>
         </div>
       </div>

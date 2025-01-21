@@ -30,16 +30,12 @@ const Features = () => {
     </h3>
   </div>
 </div>
-
-
-
-
   </Link>
 </div>
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/home-interior-design-dubai"}>
+  <Link href={"/apartment-interior-design-dubai"}>
     <Image
        src="/images/dubai-modern-apartment-living-room.webp"
        alt="Modern living room interior design in Dubai by We Do Interior Design Dubai"
@@ -60,7 +56,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/restaurant-interior-design-dubai"}>
+  <Link href={"/restaurant-interior-design"}>
     <Image
       src="/images/dubai-modern-luxury-restaurant-interior-design.webp"
       alt="Modern luxury restaurant interior design in Dubai, showcasing a sophisticated ambiance"
@@ -80,7 +76,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/commercial-interior-design-dubai"}>
+  <Link href={"/office-interior-design-dubai"}>
     <Image
        src="/images/dubai-premium-office-interior-design-company.webp"
        alt="Premium office Interior design in Dubai with marble floors, wood table, and leather chairs"
@@ -101,7 +97,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/retail-interior-design-dubai"}>
+  <Link href={"/beauty-salon-interior-design-dubai"}>
     <Image
      src="/images/dubai-luxury-pink-beauty-salon-interior.webp"
      alt="Modern luxury beauty salon Design in Dubai featuring a sleek pink aesthetic and premium equipment"
@@ -122,7 +118,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/restaurant-interior-design-dubai"}>
+  <Link href={"/cafe-interior-design-dubai"}>
     <Image
    src="/images/dubai-modern-cafe-interior-design.webp"
    alt="Modern cafe interior in Dubai with comfortable seating and minimalist design"
@@ -142,7 +138,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/retail-interior-design-dubai"}>
+  <Link href={"/clinic-interior-design-dubai"}>
     <Image
      src="/images/dubai-luxury-clinic-interior.webp"
      alt="Modern clinic interior in Dubai featuring advanced equipment and a comfortable patient waiting area"
@@ -163,7 +159,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/home-interior-design-dubai"}>
+  <Link href={"/hotel-interior-design-dubai"}>
     <Image
         src="/images/dubai-five-star-hotel-bedroom-design.webp"
         alt="Luxury hotel Interior Design Dubai: Bedroom with king bed, city view, balcony, and private bathroom"
@@ -183,7 +179,7 @@ const Features = () => {
 
 
 <div className="w-full sm:w-1/3 px-2 mb-4 sm:mb-4 relative">
-  <Link href={"/retail-interior-design-dubai"}>
+  <Link href={"/boutique-interior-design-dubai"}>
     <Image
            src="/images/dubai-modern-luxury-boutique-interior-design.webp"
            alt="Modern luxury boutique interior Design in Dubai showcasing designer clothing premium selection."
@@ -202,9 +198,6 @@ const Features = () => {
 </div>
   </Link>
 </div>
-
-
-
            </div>
             </div>
         </section>

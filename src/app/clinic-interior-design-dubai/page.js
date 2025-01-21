@@ -3,7 +3,7 @@ import Navbar from "@/app/Componenets/Navbar";
 import Hero from "./Components/Hero";
 import WhatsAppButton from "@/app/Componenets/WhatsAppButton";
 import CallButton from "@/app/Componenets/CallButton";
-import BusinessBay from "./Components/BusinessBay";
+import CliDd from "./Components/CliDd";
 import Footer from "@/app/Componenets/Footer";
 
 
@@ -14,7 +14,7 @@ export default function home() {
       <Hero />
       <WhatsAppButton />
       <CallButton />
-      <BusinessBay />
+      <CliDd />
       <Footer />
 
     </div>

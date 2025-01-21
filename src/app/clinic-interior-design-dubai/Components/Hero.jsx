@@ -10,7 +10,7 @@ const Hero = () => {
         className="bg-cover bg-center h-[250px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] order-1 w-full md:w-7/12"
         style={{
           backgroundImage:
-            "url('/images/Exquisite-Dubai-restaurant-fitout-with-statement-lighting-interior-design-solutions-Downtown-Dubai.jpg')",
+            "url('/images/dubai-luxury-clinic-interior.webp')",
         }}
       ></div>
 
@@ -61,37 +61,102 @@ const Hero = () => {
             );
           }
         `}</style>
-        <div className="text-center">
-          <h1 className="text-xl text-[#b89564] font-bold mb-4">
-            BEST BUSINESS BAY INTERIOR DESIGN & FITOUT COMPANY DUBAI
+        <div className="text-start">
+        <h1 className="text-xl text-[#b89564] font-bold mb-4">
+            CLINIC INTERIOR DESIGN DUBAI
           </h1>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            Business Bay, Dubai is a luxurious innovation, with several famous 
-            commercial and residential spaces in the entire region. 
-            Famous for its iconic skyline as well as for being vibrant,
-            it hosts business people and individuals interested in 
-            high-end design as well as functionality.
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          In the healthcare industry, the interior design of a clinic plays a vital role in creating a welcoming and reassuring environment for patients. At WeDo Interior Design & Fitout, we specialize in designing modern, functional, and patient-centered clinics that align with Dubai’s high standards for healthcare facilities.
           </p>
-          <h2 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            INTERIOR DESIGN COMPANY DUBAI - WE DO DESIGN & FITOUT
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            DESIGNING FOR COMFORT & CARE
           </h2>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            WE DO Design & Fitout, as the best interior design company in
-            Business Bay, creates exceptional spaces by bringing together
-            sophistication and practicality. The reputation of the best
-            fitout company in Business Bay is built upon the delivery
-            of tailored solutions for clients. Whether it is high-end
-            interior fit-out work or efficient fit-out work for an
-            office, retail space, or residence, we ensure seamless
-            execution and outstanding results.
-            <h3 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            BEST INTERIOR DESIGN COMPANY IN BUSINESS BAY DUBAI
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          A well-designed clinic is more than just visually appealing—it should promote efficiency, hygiene, and comfort. Our expert team combines aesthetics with practicality to create interiors that enhance patient experiences and streamline staff workflows. From private clinics to multi-specialty facilities, we tailor every project to your unique requirements.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CLINIC INTERIOR DESIGN & FITOUT SERVICES IN DUBAI
+          </h2>
+          <h3 className="text-start text-lg font-bold mt-2 mb-2">
+            Reception
           </h3>
-            As the Best Interior Design Company in Business Bay Dubai,
-            we work from detailed planning to flawless implementation
-            of interior fit-out for every project we undertake. Be a part
-            of the top interior design company in Business Bay Dubai and
-            experience perfect harmony between style and functionality.
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Inviting spaces with comfortable seating, calming color schemes, and smart layouts to ensure a positive first impression.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Consultation Rooms
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Functional and private spaces designed for patient comfort and efficient consultations.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Treatment Rooms
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Optimized for safety, hygiene, and operational efficiency while maintaining a soothing ambiance.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Lighting Design
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Bright, even lighting for clinical precision, balanced with warm, ambient lighting in patient-focused areas.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Hygenic Materials
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Durable, easy-to-clean surfaces that meet healthcare standards.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            Space Planning
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Efficient layouts that enhance patient flow and maximize staff productivity.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Branding Integration
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Subtle branding elements to reflect your clinic’s identity and professionalism.
+          </p>
+        <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            A Patient-Centered Design Process
+          </h2>
+        <h3 className="text-start text-lg font-bold mt-2 mb-2">
+            Initial Consultation
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Understanding your clinic’s services, patient demographics, and operational needs.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Design Development
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Detailed plans, mood boards, and 3D renderings to bring your vision to life.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Execution
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          From sourcing high-quality materials to overseeing construction, we ensure timely and precise project delivery.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            WHY CHOOSE US ?
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Dubai’s healthcare industry demands world-class standards, and your clinic’s interior design should reflect that. With extensive experience designing healthcare facilities, we deliver innovative solutions that are functional, compliant with regulations, and aesthetically pleasing.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            TRANSFORM YOUR CLINIC TODAY 
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Elevate the experience for your patients and staff with a thoughtfully designed clinic. Whether you’re opening a new facility or upgrading an existing space, WeDo Interior Design & Fitout is here to create interiors that inspire trust and well-being.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CONTACT US TODAY
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          To start your clinic interior design project in Dubai!
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Hero = () => {
         className="bg-cover bg-center h-[250px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] order-1 w-full md:w-7/12"
         style={{
           backgroundImage:
-            "url('/images/Exquisite-Dubai-restaurant-fitout-with-statement-lighting-interior-design-solutions-Downtown-Dubai.jpg')",
+            "url('/images/dubai-five-star-hotel-bedroom-design.webp')",
         }}
       ></div>
 
@@ -61,37 +61,108 @@ const Hero = () => {
             );
           }
         `}</style>
-        <div className="text-center">
-          <h1 className="text-xl text-[#b89564] font-bold mb-4">
-            BEST BUSINESS BAY INTERIOR DESIGN & FITOUT COMPANY DUBAI
+        <div className="text-start">
+        <h1 className="text-xl text-[#b89564] font-bold mb-4">
+            HOTEL INTERIOR DESIGN IN DUBAI
           </h1>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            Business Bay, Dubai is a luxurious innovation, with several famous 
-            commercial and residential spaces in the entire region. 
-            Famous for its iconic skyline as well as for being vibrant,
-            it hosts business people and individuals interested in 
-            high-end design as well as functionality.
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Dubai is synonymous with luxury, and your hotel should embody this spirit to captivate guests from around the world. At WeDo Interior Design & Fitout, we specialize in designing stunning hotel interiors that reflect elegance, comfort, and impeccable hospitality. From boutique hotels to grand resorts, we create spaces that elevate guest experiences and set your property apart.
           </p>
-          <h2 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            INTERIOR DESIGN COMPANY DUBAI - WE DO DESIGN & FITOUT
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            DESIGNING UNIQUE GUEST EXPERIENCE
           </h2>
-          <p className="text-sm lg:text-base xl:text-lg text-start leading-relaxed">
-            WE DO Design & Fitout, as the best interior design company in
-            Business Bay, creates exceptional spaces by bringing together
-            sophistication and practicality. The reputation of the best
-            fitout company in Business Bay is built upon the delivery
-            of tailored solutions for clients. Whether it is high-end
-            interior fit-out work or efficient fit-out work for an
-            office, retail space, or residence, we ensure seamless
-            execution and outstanding results.
-            <h3 className="text-lg text-start text-[#9c733c] font-bold mb-4">
-            BEST INTERIOR DESIGN COMPANY IN BUSINESS BAY DUBAI
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          In the competitive hospitality market, a hotel’s interior design plays a crucial role in attracting and retaining guests. Our team of experts blends world-class design trends with functional layouts to craft interiors that resonate with Dubai’s sophistication and global appeal.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            WHAT OUR HOTEL INTERIOR DESIGN SPECIALITY
+          </h2>
+          <h3 className="text-start text-lg font-bold mt-2 mb-2">
+            LOBBY & RECEPTION AREAS
           </h3>
-            As the Best Interior Design Company in Business Bay Dubai,
-            we work from detailed planning to flawless implementation
-            of interior fit-out for every project we undertake. Be a part
-            of the top interior design company in Business Bay Dubai and
-            experience perfect harmony between style and functionality.
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Impressive entry spaces that leave a lasting first impression with grand designs and seamless functionality.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            GUEST ROOMS & SUITS
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Luxuriously comfortable interiors that combine aesthetics with practical amenities to create memorable stays.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            RESTAURANTS & BARS
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Sophisticated dining spaces designed to enhance ambiance and complement your culinary offerings.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            MEETING & EVENT SPACES
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Functional, elegant areas tailored for business conferences, weddings, and other gatherings.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            SPA & WELLNESS AREAS
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Tranquil, rejuvenating spaces that reflect your hotel’s commitment to relaxation and well-being.
+          </p>
+        <h3 className="text-lg font-bold mt-2 mb-2">
+            CORRIDORS & COMMON AREAS
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Thoughtfully designed spaces to maintain the flow and aesthetics throughout the property.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            LIGHTING DESIGN
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Customized lighting solutions that set the perfect mood for every space while highlighting architectural features.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            LUXURY MATERIALS & FINISHES
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Premium textures, fabrics, and surfaces that exude elegance and durability.
+          </p>
+        <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            A CUSTOMIZED DESIGN PROCESS
+          </h2>
+        <h3 className="text-start text-lg font-bold mt-2 mb-2">
+          CONSULTATION
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          We start by understanding your hotel’s brand identity, target audience, and operational requirements.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            CONCEPT DEVELOPMENT
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Our designers create mood boards, layouts, and 3D renderings to ensure alignment with your vision.
+          </p>
+          <h3 className="text-lg font-bold mt-2 mb-2">
+            Execution
+          </h3>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          From sourcing materials to overseeing construction, we handle every detail to deliver flawless results.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            WHY CHOOSE US ?
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          With Dubai’s reputation as a global hospitality hub, your hotel’s design must be exceptional. Our team combines local expertise with international design trends to craft interiors that not only impress guests but also boost operational efficiency. From timeless elegance to cutting-edge modernity, we deliver designs that elevate your hotel’s brand.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            REDEFINED LUXURY HOSPITALITY
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          Let us help you create a hotel interior that becomes a destination in itself. Whether you're opening a new hotel or revamping an existing one, WeDo Interior Design & Fitout will turn your vision into reality with innovative designs that exceed expectations.
+          </p>
+          <h2 className="text-xl text-[#b89564] font-bold mt-2 mb-2">
+            CONTACT US TODAY
+          </h2>
+          <p className="text-sm lg:text-base xl:text-lg leading-relaxed">
+          To discuss your hotel interior design project in Dubai!
           </p>
         </div>
       </div>

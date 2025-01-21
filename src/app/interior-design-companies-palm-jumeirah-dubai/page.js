@@ -3,8 +3,8 @@ import Navbar from "@/app/Componenets/Navbar";
 import Hero from "./Components/Hero";
 import WhatsAppButton from "@/app/Componenets/WhatsAppButton";
 import CallButton from "@/app/Componenets/CallButton";
-import DhId from "./Components/DhId";
-import DhidM from "./Components/DhidM";
+import PjId from "./Components/PjId";
+import PjIdM from "./Components/PjidM";
 import Footer from "@/app/Componenets/Footer";
 
 
@@ -15,8 +15,8 @@ export default function home() {
       <Hero />
       <WhatsAppButton />
       <CallButton />
-      <DhId/>
-      <DhidM />
+      <PjId />
+      <PjIdM />
       <Footer />
 
     </div>
