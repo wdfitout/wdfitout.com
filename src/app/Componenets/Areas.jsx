@@ -45,7 +45,7 @@ const Areas = () => {
 </div>
 
 <div className="w-full sm:w-1/2 px-2 mb-4 sm:mb-4 relative">
-<Link href={"/interior-design-near-atlantis-the-royal-dubai"}>
+<Link href={"/royal-atlantis-dubai-interior-design-company"}>
     <Image
       src="/images/atlantis-the-royal-luxury-living-room-interior-design.webp"
       alt="Modern luxury bedroom interior Deign in Dubai Hills: showcasing Design skills of Interior Design comapny Dubai"

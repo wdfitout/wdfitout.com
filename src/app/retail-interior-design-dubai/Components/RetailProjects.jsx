@@ -36,7 +36,7 @@ const RetailProjects = () => {
 
 
    <div className="w-full px-2 sm:w-1/2 mb-4 relative">
-  <Link href="retail-interior-design-dubai/tess-avenue-beauty-salon-elegant-interior-design-jumeirah-1-dubai">
+  <Link href="retail-interior-design-dubai/tess-avenue-beauty-salon-interior-design-jumeirah-1-dubai">
     <Image
        src="/images/tess-avenue-beauty-salon-elegant-interior-design-jumeirah-1-dubai.webp"
       alt="Residential Project"
