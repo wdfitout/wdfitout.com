@@ -1,8 +1,8 @@
 import '../../globals.css';
 
 export const metadata = {
-  title: "Luxury Apartment Interior Design In Palm Jumeirah- We Do Design",
-  description: "Unlock the potential of apartment interior design in The Palm Jumeirah Dubai. WeDo Design & Fitout elevate the living interior spaces into a luxury and modern living experience.",
+  title: "Luxury Apartment Interior Design In Palm Jumeirah- WeDo Interior",
+  description: "Find luxury apartment interior design in Palm Jumeirah by WeDo Interior. We craft elegant, bespoke spaces tailored to your exclusive lifestyle, needs and vision.",
 };
 
 export default function RootLayout({ children }) {

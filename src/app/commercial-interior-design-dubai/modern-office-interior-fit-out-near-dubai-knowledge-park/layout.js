@@ -1,8 +1,8 @@
 import '../../globals.css';
 
 export const metadata = {
-  title: "Star Tech Company Interior Design Dubai - We Do Interiors",
-  description: "Create a workspace for your company. We Do Interiors specializes in designing cutting-edge office interiors like Star Tech Company. Contact us Today!",
+  title: "Modern Office Interior Fit-Out Near Dubai Knowledge Park",
+  description: "Explore our modern office interior fit-out project near Dubai Knowledge Park. We create tailored workspaces designed for functionality and sophistication",
 };
 
 
