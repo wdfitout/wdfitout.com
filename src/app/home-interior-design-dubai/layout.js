@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Home Interior Design Dubai | Elegance & Functionality | We Do ",
-  description: "Discover the epitome of luxury living with our top-tier residential fitout services in Dubai. Elevate, Customize, Redefine - Your Dream Home.",
+  title: "Luxury Home Interior Design Dubai | Elegant & Functional Spaces",
+  description: "Discover luxury home interior designs in Dubai by WeDo Interior. We create luxury, elegant and functional spaces for villas and apartments. Contact us today!",
 };
 
 export default function RootLayout({ children }) {

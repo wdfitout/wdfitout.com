@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Commercial Interior Design Dubai | We Do Interiors",
-  description: "Elevate your business with commercial interior design. Create functional and stylish spaces .Contact The Best Interior Design Company Dubai, WE Do Interiors.",
+  title: "Commercial Interior Design Dubai | Modern & Functional",
+  description: "Explore modern office interior design and fit-out projects in Dubai by WeDo Interior. We create functional workspaces for premium businesses. Contact us today!",
 };
 
 export default function RootLayout({ children }) {

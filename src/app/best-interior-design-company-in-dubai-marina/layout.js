@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Business Bay Interior Design & Fitout Company Dubai",
-  description: "Explore the elegance of Atlantis The Royal. Bring your vision to life with We Do interior design company. Contact us Today & transform your space!",
+  title: "Best Interior Design Company in Dubai Marina | Luxury Spaces",
+  description: "Get connect with the best interior design company in Dubai Marina, WeDo Interior. We expert in creating luxury spaces crafted to your vision. Contact us today!",
 };
 
 export default function RootLayout({ children }) {

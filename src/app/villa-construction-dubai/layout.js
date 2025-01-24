@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Best Villa Construction Companies in Dubai | Custom Villas",
-  description: "Looking for a reliable villa construction company in Dubai? We specialize in building exquisite custom villas. Our experienced team offers exceptional craftsmanship and attention to detail.",
+  title: "Luxury Villa Construction Dubai | Tailored G+1 Dream Homes",
+  description: "Experience luxury villa construction in Dubai with WeDo Interior. We create tailored G+1 villas with elegance. Contact us today to start your project",
 };
 
 export default function RootLayout({ children }) {

@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: " Design and Build Services Dubai | Expert Interior Fit-out",
-  description: "Expert design and build services in Dubai. Transform your space with our innovative solutions. From concept to completion, we deliver stunning interior designs and flawless execution.",
+  title: "Exclusive Design & Build Services Dubai | Luxury Solutions",
+  description: "Explore exclusive design and build services in Dubai. WeDo Interior deliver luxury solutions for elegant spaces. Contact us now to start your visionary project!",
 };
 
 export default function RootLayout({ children }) {

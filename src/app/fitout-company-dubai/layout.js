@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Fitout Experts Dubai |Premier Fitout Solution |WeDo Interior Fitout",
-  description: "We Do Interior Fitout offers Premium solutions for residences, offices, shops, and restaurants fitout. Browse Our Portfolio & Contact Us Now!",
+  title: "Leading Fit-Out Company Dubai | Premium Turnkey Solutions",
+  description: "Partner with WeDo Interior, the leading fit-out company in Dubai. We offer premium turnkey solutions tailored to create functional spaces. Contact us today!",
 };
 
 export default function RootLayout({ children }) {

@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: "Top Joinery Company in Dubai | Custom Woodworks",
-  description: "Looking for expert joinery services in Dubai? We offer high-quality custom woodwork and cabinetry for residential and commercial projects. Contact us for a free quote",
+  title: "High-End Joinery Company Dubai | CNC Craftsmanship & Design",
+  description: "WeDo Interior represents high-end joinery services in Dubai. We specialize in CNC craftsmanship and premium designs to elevate your interiors. Contact us today!",
 };
 
 

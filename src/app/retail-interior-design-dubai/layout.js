@@ -1,8 +1,8 @@
 import '../globals.css';
 
 export const metadata = {
-  title: " Luxury Retail Interior Design Dubai- We Do Interiors",
-  description: "Are you looking to create a classy retail shop in competitive Dubai market? Look no further than We Do Interiors, premier retail interior design company in Dubai",
+  title: "High-End Retail Interior Design Dubai | Elegant & Luxury Spaces",
+  description: "Discover high-end retail, beauty salon, and facial lounge interior design projects in Dubai by WeDo Interior. We craft elegant, luxury spaces. Contact us today!",
 };
 
 
