@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Navbar from "./Componenets/Navbar";
 import CallButton from "./Componenets/CallButton";
 import WhatsAppButton from "./Componenets/WhatsAppButton";
@@ -19,9 +18,6 @@ import Footer from "./Componenets/Footer";
 export default function Home() {
   return (
     <main className="relative flex flex-col min-h-screen bg-[#121212]">
-      <Head>
-        <link rel="canonical" href="https://wedointerior.ae" />
-      </Head>
       <Navbar className="absolute top-0 z-10 w-screen" />
       <EmblaCarousel />
       <CallButton />
