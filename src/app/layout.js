@@ -6,7 +6,7 @@ export const metadata = {
   title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
   description:
     "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
-  canonicalUrl: "https://wedointerior.ae/", // Replace with your actual domain
+  canonicalUrl: "https://www.wedointerior.ae/", // Replace with your actual domain
 };
 
 export default function RootLayout({ children }) {
