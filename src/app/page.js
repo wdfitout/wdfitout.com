@@ -1,3 +1,6 @@
+import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";  
 import Navbar from "./Componenets/Navbar";
 import CallButton from "./Componenets/CallButton";
 import WhatsAppButton from "./Componenets/WhatsAppButton";
@@ -17,33 +20,44 @@ import Footer from "./Componenets/Footer";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col min-h-screen bg-[#121212]">
-      <Navbar className="absolute top-0 z-10 w-screen" />
-      <EmblaCarousel />
-      <CallButton />
-      <WhatsAppButton />
-      <AboutSection />
-      <div className="flex flex-wrap justify-center">
-        <Projects />
-      </div>
-      <div className="flex flex-wrap justify-center">
-        <GetinContact />
-      </div>
-      <div className="flex flex-wrap justify-center">
-        <Features />
-      </div>
-      <div className="flex flex-wrap justify-center">
-        <Areas />
-      </div>
-      <div className="flex flex-wrap justify-center mt-6">
-        <Services />
-      </div>
-      <OurAuthorities />
-      <EmblaCarousel2 />
-      <OurClients />
-      <EmblaCarousel3 />
-      <ContactUs />
-      <Footer />
-    </main>
+    <>
+      <Head>
+        {/* Canonical Tag (Avoids Duplicate Content Issues) */}
+        <link rel="canonical" href="https://wedointerior.ae/" />
+      </Head>
+      
+      <main className="relative flex flex-col min-h-screen bg-[#121212]">
+        <Navbar className="absolute top-0 z-10 w-screen" />
+        <EmblaCarousel />
+        <CallButton />
+        <WhatsAppButton />
+        <AboutSection />
+        <div className="flex flex-wrap justify-center">
+          <Projects />
+        </div>
+        <div className="flex flex-wrap justify-center">
+          <GetinContact />
+        </div>
+        <div className="flex flex-wrap justify-center">
+          <Features />
+        </div>
+        <div className="flex flex-wrap justify-center">
+          <Areas />
+        </div>
+        <div className="flex flex-wrap justify-center mt-6">
+          <Services />
+        </div>
+        <OurAuthorities />
+        <EmblaCarousel2 />
+        <OurClients />
+        <EmblaCarousel3 />
+        <ContactUs />
+        <Footer />
+
+        {/* Analytics & SpeedInsights Properly Wrapped */}
+        <Analytics />
+        <SpeedInsights />
+      </main>
+    </>
   );
 }
