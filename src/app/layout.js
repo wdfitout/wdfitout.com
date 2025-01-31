@@ -33,6 +33,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Canonical Tag */}
+        <link rel="canonical" href="https://wedointerior.ae/" />
+
         {/* Google Tag Manager - Head */}
         <Script id="gtm-head" strategy="afterInteractive">
           {`
