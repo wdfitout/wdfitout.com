@@ -4,7 +4,7 @@ export const metadata = {
   title: "Exceptional Restaurant Interior Design Dubai | Stylish Spaces",
   description: "Exceptional restaurant, cafe, and coffee shop interior designs in Dubai by WeDo Interior. Our team is highly skilled and professional. Contact us today!",
  alternates: {
-    canonical: "https://wedointerior.ae/restaurant-interior-design-dubai",
+    canonical: "https://www.wedointerior.ae/restaurant-interior-design-dubai",
   },
 };
 

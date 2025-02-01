@@ -4,7 +4,7 @@ export const metadata = {
   title: "Luxury Home Interior Design Dubai | Elegant & Functional Spaces",
   description: "Discover luxury home interior designs in Dubai by WeDo Interior. We create luxury, elegant and functional spaces for villas and apartments. Contact us today!",
   alternates: {
-    canonical: "https://wedointerior.ae/home-interior-design-dubai",
+    canonical: "https://www.wedointerior.ae/home-interior-design-dubai",
   },
 };
 

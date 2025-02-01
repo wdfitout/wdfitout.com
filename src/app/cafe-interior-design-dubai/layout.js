@@ -4,7 +4,7 @@ export const metadata = {
   title: "Best Cafe Interior Design Dubai | Chic & Inviting Spaces",
   description: "Experience the best cafe interior design in Dubai. WeDo Interior creates inviting spaces tailored to your brand, enhancing customer ambiance and experience.",
   alternates: {
-    canonical: "https://wedointerior.ae/cafe-interior-design-dubai",
+    canonical: "https://www.wedointerior.ae/cafe-interior-design-dubai",
   },
 };
 

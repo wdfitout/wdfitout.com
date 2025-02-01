@@ -4,7 +4,7 @@ export const metadata = {
   title: "Luxury Villa Construction Dubai | Tailored G+1 Dream Homes",
   description: "Experience luxury villa construction in Dubai with WeDo Interior. We create tailored G+1 villas with elegance. Contact us today to start your project",
 alternates: {
-    canonical: "https://wedointerior.ae/villa-construction-dubai",
+    canonical: "https://www.wedointerior.ae/villa-construction-dubai",
   },
 };
 

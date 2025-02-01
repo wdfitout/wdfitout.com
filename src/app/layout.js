@@ -1,71 +1,127 @@
+// layout.js
 import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL("https://wedointerior.ae"),
-  title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
-  description:
-    "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
+  title: "Luxury Interior Design Dubai | High-End Fit-Out Experts UAE",
+  description: "Experience opulence with our award-winning interior design and premium fit-out services in Dubai. Elevate your space—consult our experts today!",
+  keywords: "luxury interior design, Dubai fit-out company, high-end interiors, UAE renovation experts",
+  robots: "index, follow",
   alternates: {
-    canonical: "https://wedointerior.ae/",
-  },
-  openGraph: {
-    title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
-    description:
-      "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
-    url: "https://wedointerior.ae/",
-    type: "website",
-    images: [
-      {
-        url: "/images/2wresidence (2).webp",
-        width: 1200,
-        height: 630,
-        alt: "Luxury Interior Design Dubai - WeDoInterior",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
-    description:
-      "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
-    images: ["/images/2wresidence (2).webp"],
+    canonical: "https://www.wedointerior.ae/",
   },
 };
 
 export default function RootLayout({ children }) {
+  // JSON-LD Schema (Moved inside <head> for Google to read)
+  const jsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://wedointerior.ae/#breadcrumblist",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "@id": "https://wedointerior.ae/#listItem",
+            "position": 1,
+            "name": "Home"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://wedointerior.ae/#about-us",
+        "name": "WeDo Interiors",
+        "url": "https://wedointerior.ae/",
+        "telephone": "+971588075603",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://wedointerior.ae/images/2wresidence.webp",
+          "@id": "https://wedointerior.ae/#organizationLogo",
+          "width": 1080,
+          "height": 550,
+          "caption": "WeDo Interior - Logo"
+        },
+        "sameAs": [
+          "https://www.facebook.com/wedofitout",
+          "https://www.instagram.com/wedo_interior/"
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://wedointerior.ae/#localbusiness",
+        "name": "WeDo Interiors",
+        "url": "https://wedointerior.ae/",
+        "telephone": "+971588075603",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dubai, UAE",
+          "addressLocality": "Dubai",
+          "addressCountry": "AE"
+        },
+        "image": {
+          "@id": "https://wedointerior.ae/#organizationLogo"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://wedointerior.ae/#webpage",
+        "url": "https://wedointerior.ae/",
+        "name": "Luxury Interior Design Dubai | High-End Fit-Out Experts UAE",
+        "description": "Experience opulence with our award-winning interior design and premium fit-out services in Dubai. Elevate your space—consult our experts today!",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@id": "https://wedointerior.ae/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://wedointerior.ae/#breadcrumblist"
+        },
+        "datePublished": "2023-06-28T11:09:43+00:00",
+        "dateModified": "2024-01-24T04:15:42+00:00"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://wedointerior.ae/#website",
+        "url": "https://wedointerior.ae/",
+        "name": "WeDo Interiors",
+        "inLanguage": "en-US",
+        "publisher": {
+          "@id": "https://wedointerior.ae/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://wedointerior.ae/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
+  });
+
   return (
     <html lang="en">
       <head>
+        {/* Preconnect for Faster Loading */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous" />
+
         {/* Google Tag Manager - Head */}
-        <Script id="gtm-head" strategy="afterInteractive">
-          {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-PZSS6ZMR');
-          `}
-        </Script>
+        <Script 
+          id="gtm-script" 
+          strategy="lazyOnload" 
+          src={`https://www.googletagmanager.com/gtm.js?id=GTM-PZSS6ZMR`} 
+        />
 
         {/* Viewport meta tag for mobile optimization */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Open Graph Meta Tags for Social Media */}
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta property="og:description" content={metadata.openGraph.description} />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:type" content={metadata.openGraph.type} />
-        <meta property="og:image" content={metadata.openGraph.images[0].url} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={metadata.openGraph.images[0].alt} />
+        {/* JSON-LD Structured Data - Placed Inside Head as Raw Script */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
 
-        {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content={metadata.twitter.card} />
-        <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta name="twitter:description" content={metadata.twitter.description} />
-        <meta name="twitter:image" content={metadata.twitter.images[0]} />
       </head>
       <body>
         {/* Google Tag Manager - Body (Noscript) */}

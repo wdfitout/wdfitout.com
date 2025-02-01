@@ -4,7 +4,7 @@ export const metadata = {
   title: "Saudi Network Services Office Interior Design -We Do Interiors",
   description: "We Do Interiors created a workspace for Saudi Network Services. Our expert interior designers Dubai team designed an office interior design. Contact Us!",
 alternates: {
-    canonical: "https://wedointerior.ae/commercial-interior-design-dubai/office-interior-fit-out-dubai",
+    canonical: "https:/www.wedointerior.ae/commercial-interior-design-dubai/office-interior-fit-out-dubai",
   },
 };
 

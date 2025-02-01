@@ -4,7 +4,7 @@ export const metadata = {
   title: "High-End Joinery Company Dubai | CNC Craftsmanship & Design",
   description: "WeDo Interior represents high-end joinery services in Dubai. We specialize in CNC craftsmanship and premium designs to elevate your interiors. Contact us today!",
  alternates: {
-    canonical: "https://wedointerior.ae/joinery-company-dubai",
+    canonical: "https://www.wedointerior.ae/joinery-company-dubai",
   },
 };
 

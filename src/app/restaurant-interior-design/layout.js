@@ -4,7 +4,7 @@ export const metadata = {
   title: "Elegant Restaurant Interior Design Dubai | Captivating Spaces",
   description: "Discover elegant restaurant interior design in Dubai with WeDo Interior. We craft captivating spaces that enhance ambiance and elevate the dining experience.",
 alternates: {
-    canonical: "https://wedointerior.ae/restaurant-interior-design",
+    canonical: "https://www.wedointerior.ae/restaurant-interior-design",
   },
 };
 
