@@ -3,9 +3,10 @@ import '../../globals.css';
 export const metadata = {
   title: "Häagen-Dazs Ice Cream Home - Best Interior Design Dubai",
   description: "Haagen Dazs boasts stunning Dubai design by We Do interiors. Best interior design company Dubai known for restaurant interior design. Contact Us.",
+alternates: {
+    canonical: "https://wedointerior.ae/restaurant-interior-design-dubai/elegant-interior-design-haagen-dazs-dubai",
+  },
 };
-
-
 
 export default function RootLayout({ children }) {
   return (
@@ -13,5 +14,4 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-};
-
+}

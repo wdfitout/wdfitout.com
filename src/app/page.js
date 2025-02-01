@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";  
 import Navbar from "./Componenets/Navbar";
@@ -21,10 +20,7 @@ import Footer from "./Componenets/Footer";
 export default function Home() {
   return (
     <>
-      <Head>
-        {/* Canonical Tag (Avoids Duplicate Content Issues) */}
-        <link rel="canonical" href="https://wedointerior.ae/" />
-      </Head>
+      
       
       <main className="relative flex flex-col min-h-screen bg-[#121212]">
         <Navbar className="absolute top-0 z-10 w-screen" />

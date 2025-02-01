@@ -1,8 +1,11 @@
-import '../globals.css';
+import "../globals.css";
 
 export const metadata = {
   title: "Premium Villa Interior Design Dubai | WeDo Elegant Spaces",
   description: "Transform your villa with premium villa interior design in Dubai by WeDo Interior. We create elegant, tailored spaces for luxury living. Contact us today!",
+ alternates: {
+    canonical: "https://wedointerior.ae/villa-interior-design-dubai",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -11,4 +14,4 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-};
+}

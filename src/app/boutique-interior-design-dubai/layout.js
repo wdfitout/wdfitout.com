@@ -1,8 +1,11 @@
-import '../globals.css';
+import "../globals.css";
 
 export const metadata = {
   title: "Exclusive Boutique Interior Design Dubai | Stylish Spaces Dubai",
-  description: "Exclusive boutique interior design in Dubai. WeDo Interior craft stylish, bespoke spaces to enhance your brand and captivate clients. Start your project today!",
+  description: "Exclusive boutique interior design in Dubai. WeDo Interior crafts stylish, bespoke spaces to enhance your brand and captivate clients. Start your project today!",
+  alternates: {
+    canonical: "https://wedointerior.ae/boutique-interior-design-dubai",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -11,4 +14,5 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-};
+}
+

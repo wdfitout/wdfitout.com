@@ -224,7 +224,7 @@ const RestaurantProjects = () => {
 </div>
 
 <div className="w-full px-2 sm:w-1/2 mb-4 relative">
-  <Link href="restaurant-interior-design-dubai/restaurant-interior-near-design-world-trade-centre-dubai">
+  <Link href="restaurant-interior-design-dubai/restaurant-interior-design-near-world-trade-center-dubai">
     <Image
        src="/images/restaurant (6).webp"
       alt="Residential Project"

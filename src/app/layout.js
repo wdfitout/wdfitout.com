@@ -1,10 +1,14 @@
 import "./globals.css";
-import Script from "next/script"; // Next.js recommended way to include scripts
+import Script from "next/script";
 
 export const metadata = {
+  metadataBase: new URL("https://wedointerior.ae"),
   title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
   description:
     "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
+  alternates: {
+    canonical: "https://wedointerior.ae/",
+  },
   openGraph: {
     title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
     description:
@@ -13,7 +17,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://wedointerior.ae/images/2wresidence (2).webp",
+        url: "/images/2wresidence (2).webp",
         width: 1200,
         height: 630,
         alt: "Luxury Interior Design Dubai - WeDoInterior",
@@ -25,7 +29,7 @@ export const metadata = {
     title: "Luxury Interior Design Dubai - Premier Fit-Out Experts in UAE",
     description:
       "Transform your spaces with our premium interior design and fit-out services in Dubai. Contact our expert team for a consultation today!",
-    images: ["https://wedointerior.ae/images/2wresidence (2).webp"],
+    images: ["/images/2wresidence (2).webp"],
   },
 };
 
@@ -33,9 +37,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Canonical Tag */}
-        <link rel="canonical" href="https://wedointerior.ae/" />
-
         {/* Google Tag Manager - Head */}
         <Script id="gtm-head" strategy="afterInteractive">
           {`

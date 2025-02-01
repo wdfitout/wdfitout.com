@@ -1,8 +1,11 @@
-import '../globals.css';
+import "../globals.css";
 
 export const metadata = {
   title: "Leading Fit-Out Company Dubai | Premium Turnkey Solutions",
   description: "Partner with WeDo Interior, the leading fit-out company in Dubai. We offer premium turnkey solutions tailored to create functional spaces. Contact us today!",
+alternates: {
+    canonical: "https://wedointerior.ae/fitout-company-dubai",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -11,6 +14,6 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-};
+}
 
 

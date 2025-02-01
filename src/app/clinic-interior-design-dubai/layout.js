@@ -1,8 +1,11 @@
-import '../globals.css';
+import "../globals.css";
 
 export const metadata = {
   title: "Premium Clinic Interior Design Dubai | Patient-Centric Spaces",
-  description: "Discover premium clinic interior design in Dubai crafted by WeDo, Best Interior Design & Fitout Company in Dubai, UAE. We create modern, patient-centric spaces.",
+  description: "Discover premium clinic interior design in Dubai crafted by WeDo, the best interior design & fit-out company in Dubai, UAE. We create modern, patient-centric spaces.",
+  alternates: {
+    canonical: "https://wedointerior.ae/clinic-interior-design-dubai",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -11,4 +14,4 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-};
+}
