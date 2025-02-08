@@ -1,4 +1,3 @@
-// layout.js
 import "./globals.css";
 import Script from "next/script";
 
@@ -107,13 +106,33 @@ export default function RootLayout({ children }) {
       <head>
         {/* Preconnect for Faster Loading */}
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
 
         {/* Google Tag Manager - Head */}
         <Script 
           id="gtm-script" 
           strategy="lazyOnload" 
-          src={`https://www.googletagmanager.com/gtm.js?id=GTM-PZSS6ZMR`} 
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-PZSS6ZMR"
+        />
+
+        {/* Google tag (gtag.js) */}
+        <Script 
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
+        />
+        
+        <Script
+          id="google-ads-tracking"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'AW-11361089409');
+            `,
+          }}
         />
 
         {/* Viewport meta tag for mobile optimization */}
@@ -121,7 +140,6 @@ export default function RootLayout({ children }) {
 
         {/* JSON-LD Structured Data - Placed Inside Head as Raw Script */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
-
       </head>
       <body>
         {/* Google Tag Manager - Body (Noscript) */}
