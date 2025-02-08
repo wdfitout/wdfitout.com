@@ -120,7 +120,20 @@ export default function RootLayout({ children }) {
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=AW-11361089409"
         />
-        
+
+        {/* Google Ads Conversion Event */}
+        <Script
+          id="google-ads-conversion"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.gtag = window.gtag || function() { dataLayer.push(arguments); };
+              gtag('event', 'conversion', {'send_to': 'AW-11361089409/B9iSCKDrheYZEIHvsakq'});
+            `,
+          }}
+        />
+
+        {/* Google Ads Tracking */}
         <Script
           id="google-ads-tracking"
           strategy="afterInteractive"
@@ -129,8 +142,38 @@ export default function RootLayout({ children }) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-
               gtag('config', 'AW-11361089409');
+            `,
+          }}
+        />
+
+        {/* Combined gtag_report_conversion Function (Handles Different Events) */}
+        <Script
+          id="google-ads-conversion-function"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function gtag_report_conversion(url, eventType) {
+                var callback = function () {
+                  if (typeof(url) !== 'undefined') {
+                    window.location = url;
+                  }
+                };
+
+                const eventMapping = {
+                  contact: 'AW-11361089409/B9iSCKDrheYZEIHvsakq',
+                  whatsapp: 'AW-11361089409/3MTICMCb_OsZEIHvsakq',
+                  call: 'AW-11361089409/wchnCMOb_OsZEIHvsakq'
+                };
+
+                gtag('event', 'conversion', {
+                    'send_to': eventMapping[eventType] || eventMapping.contact,
+                    'event_callback': callback
+                });
+
+                return false;
+              }
+              window.gtag_report_conversion = gtag_report_conversion;
             `,
           }}
         />
