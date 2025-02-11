@@ -3,9 +3,11 @@ import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL("https://wedointerior.ae"),
-  title: "Luxury Interior Design Dubai | High-End Fit-Out Experts UAE",
-  description: "Experience opulence with our award-winning interior design and premium fit-out services in Dubai. Elevate your space—consult our experts today!",
-  keywords: "luxury interior design, Dubai fit-out company, high-end interiors, UAE renovation experts",
+  title: "Interior Design Dubai | High-End Interior Designers In Dubai-UAE",
+  description: "WeDo Interior an Award-winning interior design company in Dubai, offering elegant solutions for residential and working spaces. Contact us for premium interiors",
+  keywords: "luxury interior design, Dubai fit-out company, high-end interiors, interior design companies in dubai, interior companies in dubai, interior design, design interior design, interior design interior design, design & interiors, interior and design, interior design interior, interior design a, interior design dubai, interior design companies in dubai, interior designer dubai, interior design companies near me, interior design near me, home designing, interior design dubai, interior designer dubai, fit out companies in dubai, interior design company, interior decoration company, interior designing firms, interior companies in dubai, best interior design companies in dubai, interior fit out companies in dubai, interior designers", 
+
+
   robots: "index, follow",
   alternates: {
     canonical: "https://www.wedointerior.ae/",
@@ -23,9 +25,21 @@ export default function RootLayout({ children }) {
         "itemListElement": [
           {
             "@type": "ListItem",
-            "@id": "https://wedointerior.ae/#listItem",
             "position": 1,
-            "name": "Home"
+            "name": "Home",
+            "item": "https://wedointerior.ae/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://wedointerior.ae/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Interior Design Dubai",
+            "item": "https://wedointerior.ae/interior-design-dubai"
           }
         ]
       },
@@ -58,18 +72,41 @@ export default function RootLayout({ children }) {
           "@type": "PostalAddress",
           "streetAddress": "Dubai, UAE",
           "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "postalCode": "00000",
           "addressCountry": "AE"
         },
         "image": {
           "@id": "https://wedointerior.ae/#organizationLogo"
-        }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "25.183977641062384", 
+          "longitude": "55.271886969323404"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ],
+        "priceRange": "$$$",
+        "serviceArea": {
+          "@type": "Place",
+          "name": "Dubai, UAE"
+        },
+        "additionalType": "https://schema.org/LuxuryBusiness",
+        "award": "Best Interior Design Company Dubai"
       },
+      
       {
         "@type": "WebPage",
         "@id": "https://wedointerior.ae/#webpage",
         "url": "https://wedointerior.ae/",
-        "name": "Luxury Interior Design Dubai | High-End Fit-Out Experts UAE",
-        "description": "Experience opulence with our award-winning interior design and premium fit-out services in Dubai. Elevate your space—consult our experts today!",
+        "name": "Interior Design Dubai | High-End Interior Designers In Dubai-UAE",
+        "description": "WeDo Interior an Award-winning interior design company in Dubai, offering elegant solutions for residential and working spaces. Contact us for premium interiors",
         "inLanguage": "en-US",
         "isPartOf": {
           "@id": "https://wedointerior.ae/#website"
@@ -87,7 +124,7 @@ export default function RootLayout({ children }) {
         "name": "WeDo Interiors",
         "inLanguage": "en-US",
         "publisher": {
-          "@id": "https://wedointerior.ae/#organization"
+          "@id": "https://wedointerior.ae/#about-us"
         },
         "potentialAction": {
           "@type": "SearchAction",
@@ -99,7 +136,8 @@ export default function RootLayout({ children }) {
         }
       }
     ]
-  });
+  }
+  );
 
   return (
     <html lang="en">

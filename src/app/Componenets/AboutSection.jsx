@@ -6,7 +6,7 @@ const AboutSection = () => {
             <div className="about-us px-2 mt-4">
             
             <h1 className="text-white mb-4 mt-0 text-lg lg:text-6xl lg:mt-10 lg:mb-10 font-bold flex 
-            justify-center">No.1 INTERIOR DESIGN DUBAI COMPANY DUBAI</h1>
+            justify-center">INTERIOR DESIGN DUBAI</h1>
         <p className="text-white text-sm lg:text-lg mb-4">
             Are you looking for the No.1 best 
             interior design company in the UAE? 
